@@ -8,6 +8,7 @@ h1 {
     font-weight: 900;
     font-size: 60px;
     }
+
 h4 { color: #46484c}
 p { color:  #8b8b8bcc}
 button { color: #fff}
@@ -52,7 +53,7 @@ button {background-color: #025157;}
     font-weight: 600;
 }
 .main {
-    margin: 25px;
+    margin: 285px 0px 20px;
     text-align: center;
 
 }
@@ -60,4 +61,61 @@ button {background-color: #025157;}
     text-align: center;
     width: 70%;
 
+}
+.yourBlog {color:#46484c}
+
+.publish {
+    flex: 1;
+}
+
+.publish h3 {
+    color: #025157; 
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.publish .publish-text{
+    display: flex;
+}
+
+.publish .publish-text > p {
+    color: #025157;
+    margin-right: 18px;
+
+}
+
+.promo {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.promo .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.promo .explanatory-video image{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
